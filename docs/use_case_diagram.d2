@@ -2,7 +2,11 @@ sys: System{
     shape: rectangle
 }
 
-td: Truck Driver {
+us: User {
+    shape: person
+}
+
+td: Driver {
     shape: person    
 }
 
@@ -17,7 +21,8 @@ sys.uc2: Maintain cargo {
     shape: oval
 }
 
-td -- sys.uc1
+td -> us <- mn
 
-mn -- sys.uc1
+us -- sys.uc1
+
 mn -- sys.uc2
