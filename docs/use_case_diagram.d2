@@ -1,0 +1,23 @@
+sys: System{
+    shape: rectangle
+}
+
+td: Truck Driver {
+    shape: person    
+}
+
+mn: Manager {
+    shape: person
+}
+
+sys.uc1: Maintain Account {
+    shape: oval
+}
+sys.uc2: Maintain cargo {
+    shape: oval
+}
+
+td -- sys.uc1
+
+mn -- sys.uc1
+mn -- sys.uc2
