@@ -32,7 +32,6 @@ export default {
       .get("http://localhost:8000/api/truck/")
       .then((response) => {
         this.items = response.data;
-        console.log(response.data);
       })
       .catch((error) => {
         console.error(error);
