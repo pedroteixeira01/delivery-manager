@@ -36,7 +36,6 @@ export default {
       .get("http://localhost:8000/api/cargo/")
       .then((response) => {
         this.items = response.data;
-        console.log(response.data);
       })
       .catch((error) => {
         console.error(error);
