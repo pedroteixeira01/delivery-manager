@@ -2,6 +2,7 @@ import { createRouter, createWebHashHistory } from 'vue-router';
 import HomeView from '../views/HomeView.vue';
 import TrucksView from '../views/TrucksView.vue';
 import CargosView from '../views/CargosView.vue';
+import OptimalMappingView from '@/views/OptimalMappingView.vue';
 
 const routes = [
   {
@@ -18,6 +19,11 @@ const routes = [
     path: '/cargos',
     name: 'cargos',
     component: CargosView
+  },
+  {
+    path: '/mapping',
+    name: 'mapping',
+    component: OptimalMappingView
   }
 ];
 
