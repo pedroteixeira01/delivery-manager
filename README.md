@@ -1,4 +1,4 @@
-# Delivery Manager
+# Delivery Manager v0.1
 
 ## How to install
 1. Clone or download this repository;
